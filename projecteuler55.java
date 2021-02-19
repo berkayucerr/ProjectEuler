@@ -13,7 +13,7 @@ public class projecteuler55
 
     }
     private int reverse(int x) {
-        String a=new String() ;
+        String a;
         a=String.valueOf(x);
         byte[] strAsByteArray = a.getBytes();
         byte[] result = new byte[strAsByteArray.length];
